@@ -1,0 +1,16 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    int i = 0, b, l;
+    cin>>l;
+    cin>>b;
+    while(l<=b){
+        b= b*2;
+        l= l*3;
+        i = i +1;
+    }
+    cout<<i;
+}
