@@ -1,0 +1,23 @@
+#include<iostream>
+ 
+using namespace std;
+ 
+int main()
+{
+    int n, t, suma = 0;
+    cin>>n>>t;
+    int persona[n];
+ 
+    for (int i = 0; i < n; i++){
+        cin>>persona[i];
+        if (persona[i] > t){
+            suma = suma + 2;
+        }
+        else{
+            suma = suma + 1;
+        }
+    }
+    cout<<suma;
+ 
+    return 0;
+}
