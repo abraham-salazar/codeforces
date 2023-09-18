@@ -1,2 +1,2 @@
 # codeforces
-Here are all the solutions to the codeforces problems I had resolved
+Here are all the solutions to the codeforces problems I had solved
