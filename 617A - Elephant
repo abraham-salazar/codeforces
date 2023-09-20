@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int n, p, aux = 0;
+    cin>>n;
+    p = n / 5;
+    if(n % 5 == 0){
+        cout<<p;
+    }
+    else{
+         aux = n % 5;
+         if( aux % 4 == 0){
+             p = p + 1;
+             cout<<p;
+
+         }
+        else if( aux % 3 == 0){
+            p = p + 1;
+            cout<<p;
+        }
+        else if( aux % 2 == 0){
+            p = p + 1;
+            cout<<p;
+        }
+        else if( aux % 1 == 0){
+            p = p + 1;
+            cout<<p;
+        }
+         }
+
+    
+    return 0;
+}
